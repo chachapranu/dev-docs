@@ -64,4 +64,34 @@ chown user:group <file> # Change file owner
 
 ---
 
+### Searching within command history
+
+```bash
+ctrl+r
+```
+
+### Searching for files
+
+```bash
+find . -name <file-name>
+```
+
+### Searching for a string in files
+
+```bash
+grep -r "string-to-search" .
+```
+
+### To get the path of a command
+
+```bash
+which <command-name>
+```
+
+### To see the manual for a command
+
+```bash
+man <command-name>
+```
+
 Add more commands as needed for your workflow!
