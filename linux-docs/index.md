@@ -1,33 +1,27 @@
+# Linux from First Principles
 
-# Welcome to the Ultimate Linux Guide
-
-This guide is designed to take you from a Linux beginner to an expert in core concepts. It's structured to provide a clear learning path, starting with the fundamentals and progressing to more advanced topics.
+This guide is designed to build your understanding of Linux from the ground up. We will explore the "why" behind the architecture and concepts, not just the "what" and "how." By the end of this guide, you will have a strong first-principle understanding of Linux.
 
 ## Table of Contents
 
-*   **[Introduction](./01-introduction/index.md)**
-    *   [What is Linux?](./01-introduction/what-is-linux.md)
-    *   [Why Use Linux?](./01-introduction/why-use-linux.md)
-    *   [Linux Distributions](./01-introduction/distributions.md)
-*   **[Getting Started](./02-getting-started/index.md)**
-    *   [Installing Linux](./02-getting-started/installing-linux.md)
-    *   [The Linux Filesystem](./02-getting-started/filesystem.md)
-    *   [Basic Shell Commands](./02-getting-started/basic-commands.md)
-*   **[Core Concepts](./03-core-concepts/index.md)**
-    *   [The Kernel](./03-core-concepts/kernel.md)
-    *   [User Space](./03-core-concepts/user-space.md)
-    *   [Processes](./03-core-concepts/processes.md)
-    *   [Permissions](./03-core-concepts/permissions.md)
-    *   [Users and Groups](./03-core-concepts/users-and-groups.md)
-*   **[Shell Scripting](./04-shell-scripting/index.md)**
-    *   [Introduction to Shell Scripting](./04-shell-scripting/introduction.md)
-    *   [Variables and Operators](./04-shell-scripting/variables-and-operators.md)
-    *   [Control Structures](./04-shell-scripting/control-structures.md)
-*   **[Networking](./05-networking/index.md)**
-    *   [Basic Networking Concepts](./05-networking/basic-concepts.md)
-    *   [Networking Commands](./05-networking/network-commands.md)
-    *   [SSH](./05-networking/ssh.md)
-*   **[Package Management](./06-package-management/index.md)**
-    *   [Introduction to Package Management](./06-package-management/introduction.md)
-    *   [Using `apt`](./06-package-management/apt.md)
-    *   [Using `yum`](./06-package-management/yum.md)
+*   **[The Big Picture](./01-the-big-picture/index.md)**
+    *   [What is an Operating System?](./01-the-big-picture/what-is-an-os.md)
+    *   [The Linux Philosophy](./01-the-big-picture/philosophy.md)
+    *   [Why Linux is Everywhere](./01-the-big-picture/linux-everywhere.md)
+*   **[The Kernel: The Core of Control](./02-the-kernel/index.md)**
+    *   [The Kernel's Job](./02-the-kernel/job-of-the-kernel.md)
+    *   [Processes: The Units of Execution](./02-the-kernel/processes.md)
+    *   [Memory Management](./02-the-kernel/memory.md)
+    *   [System Calls: The Kernel's API](./02-the-kernel/syscalls.md)
+*   **[The User Space: Where We Live](./03-the-user-space/index.md)**
+    *   [The Shell: Your Command Center](./03-the-user-space/shell.md)
+    *   [Users and Permissions: A Multi-User World](./03-the-user-space/users-and-permissions.md)
+    *   [The C Library: The Bridge to the Kernel](./03-the-user-space/glibc.md)
+*   **[The Filesystem: Everything is a File](./04-the-filesystem/index.md)**
+    *   [The "Everything is a File" Concept](./04-the-filesystem/everything-is-a-file.md)
+    *   [The Filesystem Hierarchy](./04-the-filesystem/hierarchy.md)
+    *   [Virtual Filesystems: procfs and sysfs](./04-the-filesystem/virtual-filesystems.md)
+*   **[The Hardware: Talking to the World](./05-the-hardware/index.md)**
+    *   [Drivers: The Translators](./05-the-hardware/drivers.md)
+    *   [Block Devices vs. Character Devices](./05-the-hardware/block-vs-char.md)
+    *   [The `/dev` Directory](./05-the-hardware/dev.md)
